@@ -24,14 +24,14 @@ const App = () => {
 
     if (calculation <= 0.7) {
       return setInfo({
-        resultMessage: "Compensa usar Etanol",
+        resultMessage: "Compensa usar Etanol!",
         totalGasoline: currencyFormatter(gasolineInput),
         totalEthanol: currencyFormatter(ethanolInput),
       });
     }
 
     return setInfo({
-      resultMessage: "Compensa usar Gasolina",
+      resultMessage: "Compensa usar Gasolina!",
       totalGasoline: currencyFormatter(gasolineInput),
       totalEthanol: currencyFormatter(ethanolInput),
     });
